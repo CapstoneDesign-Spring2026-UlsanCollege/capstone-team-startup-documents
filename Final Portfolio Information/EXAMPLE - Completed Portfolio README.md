@@ -1,64 +1,106 @@
-# Example Portfolio README
-
-# CampusBite Final Portfolio
+# Campus Helper Final Portfolio
 
 ## Team
 
-- Mina Kim
-- Joon Park
-- Sora Lee
+* Laxman Bhattarai
+* Rajim Danwar
+* Kushal Kharka
+* Ujwol Upreti
+* Bibek Kunwar
+
+---
 
 ## Project Summary
 
-CampusBite helps Ulsan College students quickly check cafeteria menus and save nearby restaurant options.
+Campus Helper is a centralized student support platform designed for Ulsan College students. The application combines academic resources, campus communication, note sharing, marketplace services, AI assistance, and administrative announcements into a single web platform.
 
 Our final MVP allows a student to:
 
-1. open the app,
-2. view today's cafeteria menu,
-3. search nearby restaurants,
-4. save a favorite,
-5. and reopen the favorite list later.
+* Register and log into the platform
+* Access a personalized student dashboard
+* Browse and share study notes
+* Browse and post marketplace listings
+* Like notes and marketplace posts
+* Ask questions through the AI Assistant
+* View campus announcements
+
+Administrators can:
+
+* Log into the admin dashboard
+* Create and publish campus notices
+* Manage platform content
+
+---
 
 ## Quick Links
 
-| Area | Link |
-|---|---|
-| Final MVP scope | [FINAL_MVP_SCOPE.md](01-project-overview/FINAL_MVP_SCOPE.md) |
-| Scope decisions | [SCOPE_DECISIONS.md](01-project-overview/SCOPE_DECISIONS.md) |
-| Semester journey | [SEMESTER_JOURNEY.md](02-semester-journey/SEMESTER_JOURNEY.md) |
-| Weekly files | [weekly-sprints/](02-semester-journey/weekly-sprints/) |
-| Sprint summaries | [sprint-summaries/](02-semester-journey/sprint-summaries/) |
-| Planning history | [03-design-and-planning/](03-design-and-planning/) |
-| Final MVP demo | [FINAL_MVP_DEMO.md](04-final-product/FINAL_MVP_DEMO.md) |
-| Setup guide | [SETUP_AND_RUN_GUIDE.md](04-final-product/SETUP_AND_RUN_GUIDE.md) |
-| QA report | [QA_REPORT.md](05-qa-and-stabilization/QA_REPORT.md) |
-| Bugs and limitations | [BUGS_AND_LIMITATIONS.md](05-qa-and-stabilization/BUGS_AND_LIMITATIONS.md) |
-| AI ownership audit | [AI_CODE_OWNERSHIP_AUDIT.md](06-ai-and-code-ownership/AI_CODE_OWNERSHIP_AUDIT.md) |
-| Presentation script | [FINAL_PRESENTATION_SCRIPT.md](07-final-presentation/FINAL_PRESENTATION_SCRIPT.md) |
-| Individual portfolios | [08-individual-portfolios/](08-individual-portfolios/) |
+| Area                  | Link                         |
+| --------------------- | ---------------------------- |
+| Final MVP Scope       | FINAL_MVP_SCOPE.md           |
+| Scope Decisions       | SCOPE_DECISIONS.md           |
+| Semester Journey      | SEMESTER_JOURNEY.md          |
+| Weekly Sprint Files   | docs/sprints/                |
+| Sprint Summaries      | sprint-summaries/            |
+| Planning History      | docs/                        |
+| Final MVP Demo        | FINAL_MVP_DEMO.md            |
+| Setup Guide           | SETUP_AND_RUN_GUIDE.md       |
+| QA Report             | QA_REPORT.md                 |
+| Bugs and Limitations  | BUGS_AND_LIMITATIONS.md      |
+| AI Ownership Audit    | AI_CODE_OWNERSHIP_AUDIT.md   |
+| Presentation Script   | FINAL_PRESENTATION_SCRIPT.md |
+| Individual Portfolios | 08-individual-portfolios/    |
+
+---
+
+## Repository
+
+https://github.com/CapstoneDesign-Spring2026-UlsanCollege/campus-helper
+
+---
 
 ## Final Demo
 
-- **Demo access:** [Live app](...)
-- **Backup demo:** [Screen recording](...)
-- **Demo credentials:** See [FINAL_MVP_DEMO.md](04-final-product/FINAL_MVP_DEMO.md)
+**Demo Access:** Local deployment / Hosted deployment (add link)
+
+**Backup Demo:** Screen recording
+
+**Demo Credentials:** See FINAL_MVP_DEMO.md
+
+---
 
 ## Final Status
 
-| Area | Status |
-|---|---|
-| Core MVP flow | Working |
-| Setup guide | Tested |
-| P0 bugs | None open |
-| P1 bugs | One documented workaround |
-| Presentation | Rehearsed |
-| Backup | Tested |
+| Area                    | Status                   |
+| ----------------------- | ------------------------ |
+| Core MVP Flow           | Working                  |
+| Authentication          | Working                  |
+| Notes Module            | Working                  |
+| Marketplace Module      | Working                  |
+| Like Functionality      | Working                  |
+| AI Assistant            | Working with limitations |
+| Admin Notice Management | Working                  |
+| Setup Guide             | Tested                   |
+| P0 Bugs                 | None Open                |
+| Documentation           | Complete                 |
+| Presentation            | Rehearsed                |
+| Backup Demo             | Prepared                 |
 
-## Known Limitation
+---
 
-Restaurant distance sorting is not always accurate when location permission is disabled.
+## Known Limitations
 
-See:
+* The AI Assistant depends on external API availability.
+* Full deployment automation has not been implemented.
+* Real-time notifications are not included in the MVP.
+* Live student-to-student chat functionality remains a future enhancement.
+* Advanced search and filtering features are limited.
 
-[BUGS_AND_LIMITATIONS.md](05-qa-and-stabilization/BUGS_AND_LIMITATIONS.md)
+For additional details, see:
+
+**BUGS_AND_LIMITATIONS.md**
+
+---
+
+## Project Outcome
+
+Campus Helper successfully delivers a working MVP that centralizes important student services into one platform. The project demonstrates full-stack web development, authentication, database integration, AI-assisted functionality, responsive user interface design, and collaborative software engineering practices throughout the semester.
